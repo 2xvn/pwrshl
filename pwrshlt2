@@ -332,7 +332,7 @@ function Write-ColoredLine {
 
 function Wait-ForEnter {
     Start-Sleep -Seconds 1
-    Write-ColoredLine "Press Enter to exit." Yellow
+    Write-ColoredLine "Press Enter to continue." Yellow
     while ($true) {
         if ([System.Console]::KeyAvailable) {
             $key = [System.Console]::ReadKey($true)
@@ -952,7 +952,7 @@ function Write-ColoredLine {
 
 function Wait-ForEnter {
     Start-Sleep -Seconds 1
-    Write-ColoredLine "Press Enter to exit." Yellow
+    Write-ColoredLine "Press Enter to continue." Yellow
     while ($true) {
         if ([System.Console]::KeyAvailable) {
             $key = [System.Console]::ReadKey($true)
