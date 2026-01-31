@@ -1086,4 +1086,5 @@ foreach ($Path in $ScanPaths) {
 
 Wait-ForEnter "Press Enter to Exit."
 exit
+
 ".
